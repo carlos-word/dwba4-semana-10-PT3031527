@@ -1,0 +1,40 @@
+.challenge-section {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card p {
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
