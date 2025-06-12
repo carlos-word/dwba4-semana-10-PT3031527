@@ -9,27 +9,32 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/ifsp.png?raw=true" alt="IFSP" style="height:30px;" />
-      </a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">CONTATO</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">CURSOS</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#">ENTRAR</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">SOBRE</a></li>
-        </ul>
+  <nav>
+      <div class="nav-left">
+        <a href="index.html">HOME</a>
+        <a href="events.html">EVENTOS</a>
+        <a href="contact.html">CONTATO</a>
+        <div class="dropdown">
+          <a href="courses.html" class="dropbtn">CURSOS ▼</a>
+          <div class="dropdown-content">
+            <a href="engenharia-producao.html">Engenharia de Produção</a>
+            <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+          </div>
+        </div>
+        <a href="login.html">ENTRAR</a>
       </div>
+      <div class="nav-right">
+        <a href="about.html">SOBRE</a>
+      </div>
+    </nav>
+
+    <div class="logo-container">
+      <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg" alt="Logo IFSP">
     </div>
-  </nav>
 
   <div class="login-container">
     <div class="logo-if">
-      <img src="logo_if.png" alt="Logo IF" />
+      <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/ifsp.png?raw=true" alt="Logo IF" />
     </div>
     <h4 class="text-center mb-4">Faça login</h4>
     <form>
